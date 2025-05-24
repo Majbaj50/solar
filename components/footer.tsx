@@ -43,7 +43,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-600">
-              <li>Email: info@californiasolarprogram.org</li>
+              <li>Email: info@californiarealstate.com</li>
               <li>Phone: +1 916-917-2432</li>
               <li>Hours: Mon-Fri 8am-6pm PT</li>
             </ul>

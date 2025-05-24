@@ -10,40 +10,42 @@ export default function HomePage() {
     <main className="flex min-h-screen flex-col">
       {/* Hero Section */}
       <section className="bg-[#f0f5ff] py-16 md:py-24">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center space-y-8">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-[#3b7afc]">
               Free Solar & Battery Program
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 max-w-3xl">
+            <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
               Power your home with clean energy at absolutely no cost to you. See if you qualify for California's
               SGIP-backed solar and battery installation program.
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 mt-12">
-              <div className="flex flex-col items-center gap-2">
-                <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
-                  <Check className="h-6 w-6 text-green-500" />
+            <div className="w-full flex justify-center">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 mt-12 max-w-4xl w-full">
+                <div className="flex flex-col items-center gap-2">
+                  <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
+                    <Check className="h-6 w-6 text-green-500" />
+                  </div>
+                  <p className="text-gray-700 font-medium text-center">Reduce Your Energy Bills</p>
                 </div>
-                <p className="text-gray-700 font-medium text-center">Reduce Your Energy Bills</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
-                  <Check className="h-6 w-6 text-green-500" />
+                <div className="flex flex-col items-center gap-2">
+                  <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
+                    <Check className="h-6 w-6 text-green-500" />
+                  </div>
+                  <p className="text-gray-700 font-medium text-center">Increase Home Value</p>
                 </div>
-                <p className="text-gray-700 font-medium text-center">Increase Home Value</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
-                  <Check className="h-6 w-6 text-green-500" />
+                <div className="flex flex-col items-center gap-2">
+                  <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
+                    <Check className="h-6 w-6 text-green-500" />
+                  </div>
+                  <p className="text-gray-700 font-medium text-center">Gain Energy Independence</p>
                 </div>
-                <p className="text-gray-700 font-medium text-center">Gain Energy Independence</p>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
-                  <Check className="h-6 w-6 text-green-500" />
+                <div className="flex flex-col items-center gap-2">
+                  <div className="rounded-full bg-white p-2 w-10 h-10 flex items-center justify-center">
+                    <Check className="h-6 w-6 text-green-500" />
+                  </div>
+                  <p className="text-gray-700 font-medium text-center">Support Clean Energy</p>
                 </div>
-                <p className="text-gray-700 font-medium text-center">Support Clean Energy</p>
               </div>
             </div>
 
@@ -68,7 +70,7 @@ export default function HomePage() {
 
       {/* Program Details Section */}
       <section className="py-16 bg-white">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#3b7afc] mb-4">
               California's Free Solar & Battery Program
@@ -110,7 +112,7 @@ export default function HomePage() {
 
       {/* Benefits Section */}
       <section className="py-16 bg-gray-50">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#3b7afc] mb-4">Benefits of Solar & Battery Systems</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -179,7 +181,7 @@ export default function HomePage() {
 
       {/* How It Works Section */}
       <section className="py-16 bg-white">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#3b7afc] mb-4">How The Program Works</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -187,43 +189,45 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
-                1
+          <div className="w-full flex justify-center">
+            <div className="grid md:grid-cols-4 gap-8 max-w-5xl w-full">
+              <div className="flex flex-col items-center text-center space-y-4">
+                <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
+                  1
+                </div>
+                <h3 className="text-xl font-semibold">Apply</h3>
+                <p className="text-gray-700">
+                  Complete our simple application form to check your eligibility for the program.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold">Apply</h3>
-              <p className="text-gray-700">
-                Complete our simple application form to check your eligibility for the program.
-              </p>
-            </div>
 
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
-                2
+              <div className="flex flex-col items-center text-center space-y-4">
+                <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
+                  2
+                </div>
+                <h3 className="text-xl font-semibold">Verify</h3>
+                <p className="text-gray-700">Our team verifies your eligibility and conducts a property assessment.</p>
               </div>
-              <h3 className="text-xl font-semibold">Verify</h3>
-              <p className="text-gray-700">Our team verifies your eligibility and conducts a property assessment.</p>
-            </div>
 
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
-                3
+              <div className="flex flex-col items-center text-center space-y-4">
+                <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
+                  3
+                </div>
+                <h3 className="text-xl font-semibold">Install</h3>
+                <p className="text-gray-700">
+                  Professional contractors install your solar panels and battery system at no cost.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold">Install</h3>
-              <p className="text-gray-700">
-                Professional contractors install your solar panels and battery system at no cost.
-              </p>
-            </div>
 
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
-                4
+              <div className="flex flex-col items-center text-center space-y-4">
+                <div className="rounded-full bg-[#3b7afc] text-white w-12 h-12 flex items-center justify-center text-xl font-bold">
+                  4
+                </div>
+                <h3 className="text-xl font-semibold">Enjoy</h3>
+                <p className="text-gray-700">
+                  Start enjoying free, clean energy and reduced electricity bills immediately.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold">Enjoy</h3>
-              <p className="text-gray-700">
-                Start enjoying free, clean energy and reduced electricity bills immediately.
-              </p>
             </div>
           </div>
 
@@ -243,7 +247,7 @@ export default function HomePage() {
 
       {/* Cities Section */}
       <section className="py-16 bg-gray-50">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#3b7afc] mb-4">Free Solar Program in Your City</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -251,47 +255,49 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
-            <Link href="/cities/los-angeles" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">Los Angeles</p>
-              </div>
-            </Link>
-            <Link href="/cities/san-diego" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">San Diego</p>
-              </div>
-            </Link>
-            <Link href="/cities/san-francisco" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">San Francisco</p>
-              </div>
-            </Link>
-            <Link href="/cities/san-jose" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">San Jose</p>
-              </div>
-            </Link>
-            <Link href="/cities/sacramento" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">Sacramento</p>
-              </div>
-            </Link>
-            <Link href="/cities/fresno" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">Fresno</p>
-              </div>
-            </Link>
-            <Link href="/cities/long-beach" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">Long Beach</p>
-              </div>
-            </Link>
-            <Link href="/cities/oakland" className="no-underline">
-              <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
-                <p className="font-medium text-[#3b7afc]">Oakland</p>
-              </div>
-            </Link>
+          <div className="w-full flex justify-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl w-full">
+              <Link href="/cities/los-angeles" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">Los Angeles</p>
+                </div>
+              </Link>
+              <Link href="/cities/san-diego" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">San Diego</p>
+                </div>
+              </Link>
+              <Link href="/cities/san-francisco" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">San Francisco</p>
+                </div>
+              </Link>
+              <Link href="/cities/san-jose" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">San Jose</p>
+                </div>
+              </Link>
+              <Link href="/cities/sacramento" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">Sacramento</p>
+                </div>
+              </Link>
+              <Link href="/cities/fresno" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">Fresno</p>
+                </div>
+              </Link>
+              <Link href="/cities/long-beach" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">Long Beach</p>
+                </div>
+              </Link>
+              <Link href="/cities/oakland" className="no-underline">
+                <div className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-medium text-[#3b7afc]">Oakland</p>
+                </div>
+              </Link>
+            </div>
           </div>
 
           <div className="text-center mt-8">
@@ -310,7 +316,7 @@ export default function HomePage() {
 
       {/* FAQ Section */}
       <section className="py-16 bg-gray-50" id="faq">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center mb-12">
             <div className="rounded-full bg-[#e6efff] p-4 mb-4">
               <Image
@@ -322,7 +328,7 @@ export default function HomePage() {
               />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-[#3b7afc] mb-4">Frequently Asked Questions</h2>
-            <p className="text-xl text-gray-600 max-w-3xl">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Got questions? We've got answers. Find out more about our free solar and battery program.
             </p>
           </div>
@@ -605,7 +611,7 @@ export default function HomePage() {
 
       {/* Testimonials Section */}
       <section className="py-16 bg-white">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#3b7afc] mb-4">What Our Customers Say</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -613,68 +619,70 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col space-y-4">
-                  <div className="flex items-center space-x-1">
-                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
-                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
-                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
+          <div className="w-full flex justify-center">
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl w-full">
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex flex-col space-y-4">
+                    <div className="flex items-center space-x-1">
+                      <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                      <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                      <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                    </div>
+                    <p className="text-gray-700 italic">
+                      "During the last power outage, our neighbors were in the dark but our essential appliances kept
+                      running thanks to our battery system. Best decision we ever made."
+                    </p>
+                    <div>
+                      <p className="font-semibold">Maria Rodriguez</p>
+                      <p className="text-sm text-gray-500">San Diego, CA</p>
+                    </div>
                   </div>
-                  <p className="text-gray-700 italic">
-                    "During the last power outage, our neighbors were in the dark but our essential appliances kept
-                    running thanks to our battery system. Best decision we ever made."
-                  </p>
-                  <div>
-                    <p className="font-semibold">Maria Rodriguez</p>
-                    <p className="text-sm text-gray-500">San Diego, CA</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
 
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex flex-col space-y-4">
-                  <div className="flex items-center space-x-1">
-                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
-                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
-                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
-                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                    </svg>
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex flex-col space-y-4">
+                    <div className="flex items-center space-x-1">
+                      <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                      <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                      <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                      <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                      </svg>
+                    </div>
+                    <p className="text-gray-700 italic">
+                      "I was skeptical at first, but the program is truly free. The installation was professional and now
+                      I'm saving over $200 a month on electricity."
+                    </p>
+                    <div>
+                      <p className="font-semibold">James Wilson</p>
+                      <p className="text-sm text-gray-500">Sacramento, CA</p>
+                    </div>
                   </div>
-                  <p className="text-gray-700 italic">
-                    "I was skeptical at first, but the program is truly free. The installation was professional and now
-                    I'm saving over $200 a month on electricity."
-                  </p>
-                  <div>
-                    <p className="font-semibold">James Wilson</p>
-                    <p className="text-sm text-gray-500">Sacramento, CA</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
       <section className="py-16 bg-[#3b7afc] text-white">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center space-y-6 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold">Ready to Go Solar for Free?</h2>
             <p className="text-xl">

@@ -9,7 +9,7 @@ import SchemaMarkup from "./schema-generator"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  metadataBase: new URL("https://californiasolarprogram.org"),
+  metadataBase: new URL("https://www.californiarealstate.com"),
   title: "California Free Solar Program - SGIP | 100% State-Subsidized Solar Installation",
   description:
     "Apply for California's free solar and battery program through the Self-Generation Incentive Program (SGIP). Qualify for 100% state-subsidized solar panels and battery storage systems with no cost to you.",
@@ -18,14 +18,14 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://californiasolarprogram.org",
+    url: "https://www.californiarealstate.com",
     siteName: "California Free Solar Program",
     title: "California Free Solar Program - 100% Free Solar Installation through SGIP",
     description:
       "Apply for California's free solar and battery program through the Self-Generation Incentive Program (SGIP). Qualify for 100% state-subsidized solar panels and battery storage systems with no cost to you.",
     images: [
       {
-        url: "https://californiasolarprogram.org/favicon.ico",
+        url: "https://www.californiarealstate.com/favicon.ico",
         width: 1200,
         height: 630,
         alt: "California Free Solar Program",
@@ -37,14 +37,14 @@ export const metadata = {
     title: "California Free Solar Program - 100% Free Solar Installation",
     description:
       "Apply for California's free solar and battery program through the Self-Generation Incentive Program (SGIP).",
-    images: ["https://californiasolarprogram.org/favicon.ico"],
+    images: ["https://www.californiarealstate.com/favicon.ico"],
     creator: "@casolarprogram",
   },
   alternates: {
-    canonical: "https://californiasolarprogram.org",
+    canonical: "https://www.californiarealstate.com",
     languages: {
-      "en-US": "https://californiasolarprogram.org",
-      es: "https://californiasolarprogram.org/es",
+      "en-US": "https://www.californiarealstate.com",
+      es: "https://www.californiarealstate.com/es",
     },
   },
 }

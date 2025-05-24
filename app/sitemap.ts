@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://californiasolarprogram.org"
+  const baseUrl = "https://californiarealstate.com"
 
   // List of cities
   const cities = [
