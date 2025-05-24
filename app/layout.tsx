@@ -25,7 +25,7 @@ export const metadata = {
       "Apply for California's free solar and battery program through the Self-Generation Incentive Program (SGIP). Qualify for 100% state-subsidized solar panels and battery storage systems with no cost to you.",
     images: [
       {
-        url: "https://californiasolarprogram.org/og-image.jpg",
+        url: "https://californiasolarprogram.org/favicon.ico",
         width: 1200,
         height: 630,
         alt: "California Free Solar Program",
@@ -37,7 +37,7 @@ export const metadata = {
     title: "California Free Solar Program - 100% Free Solar Installation",
     description:
       "Apply for California's free solar and battery program through the Self-Generation Incentive Program (SGIP).",
-    images: ["https://californiasolarprogram.org/twitter-image.jpg"],
+    images: ["https://californiasolarprogram.org/favicon.ico"],
     creator: "@casolarprogram",
   },
   alternates: {
@@ -47,7 +47,6 @@ export const metadata = {
       es: "https://californiasolarprogram.org/es",
     },
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -58,9 +57,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#3b7afc" />
         <meta name="theme-color" content="#3b7afc" />
