@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   // Main pages
-  const mainPages = [
+  const mainPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -50,10 +50,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   // City pages
-  const cityPages = cities.map((city) => ({
+  const cityPages: MetadataRoute.Sitemap = cities.map((city) => ({
     url: `${baseUrl}/cities/${city}`,
     lastModified: new Date(),
-    changeFrequency: "weekly" as const,
+    changeFrequency: "weekly",
     priority: 0.8,
   }))
 
