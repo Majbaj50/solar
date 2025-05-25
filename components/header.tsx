@@ -22,9 +22,7 @@ export default function Header() {
           <Link href="/cities" className="text-gray-700 hover:text-[#3b7afc]">
             Cities
           </Link>
-          <Link href="/blog" className="text-gray-700 hover:text-[#3b7afc]">
-            Blog
-          </Link>
+
           <Link href="/#benefits" className="text-gray-700 hover:text-[#3b7afc]">
             Benefits
           </Link>
