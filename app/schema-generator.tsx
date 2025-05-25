@@ -7,11 +7,11 @@ const SchemaMarkup = () => {
           "@context": "https://schema.org",
           "@type": "WebSite",
           "name": "California Free Solar Program",
-          "url": "https://californiarealstate.com",
+          "url": "https://californiastateprogram.com",
           "description": "Apply for California's free solar and battery program through the Self-Generation Incentive Program (SGIP). Qualify for 100% state-subsidized solar panels and battery storage systems with no cost to you.",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://californiarealstate.com/search?q={search_term_string}",
+            "target": "https://californiastateprogram.com/search?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         }`,

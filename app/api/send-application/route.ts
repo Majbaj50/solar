@@ -10,8 +10,8 @@ export async function POST(request: NextRequest) {
 
     // Send email to admin
     const adminEmail = await resend.emails.send({
-      from: "SGIP Application <noreply@californiarealstate.com>",
-      to: ["applications@californiarealstate.com"],
+      from: "SGIP Application <noreply@californiastateprogram.com>",
+      to: ["applications@californiastateprogram.com"],
       subject: "New SGIP Application Submitted",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
     // Send confirmation email to applicant
     if (body.email) {
       const confirmationEmail = await resend.emails.send({
-        from: "California Free Solar Program <noreply@californiarealstate.com>",
+        from: "California Free Solar Program <noreply@californiastateprogram.com>",
         to: [body.email],
         subject: "SGIP Application Received - Next Steps",
         html: `
@@ -96,7 +96,7 @@ export async function POST(request: NextRequest) {
                 <h4 style="color: #3b7afc; margin-top: 0;">Questions?</h4>
                 <p style="margin-bottom: 0;">
                   Call us at <strong>+1 916-917-2432</strong><br>
-                  Email: applications@californiarealstate.com<br>
+                  Email: applications@californiastateprogram.com<br>
                   Hours: Mon-Fri 8am-6pm PT
                 </p>
               </div>

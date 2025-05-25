@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://californiarealstate.com/sitemap.xml",
+    sitemap: "https://californiastateprogram.com/sitemap.xml",
   }
 }
