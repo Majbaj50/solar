@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
     // Send email to admin
     const adminEmail = await resend.emails.send({
       from: "SGIP Application <noreply@californiastateprogram.com>",
-      to: ["applications@californiastateprogram.com"],
+      to: ["californiasolar2025@gmail.com"],
       subject: "New SGIP Application Submitted",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -96,7 +96,7 @@ export async function POST(request: NextRequest) {
                 <h4 style="color: #3b7afc; margin-top: 0;">Questions?</h4>
                 <p style="margin-bottom: 0;">
                   Call us at <strong>+1 916-917-2432</strong><br>
-                  Email: applications@californiastateprogram.com<br>
+                  Email: californiasolar2025@gmail.com<br>
                   Hours: Mon-Fri 8am-6pm PT
                 </p>
               </div>
