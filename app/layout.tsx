@@ -63,6 +63,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#3b7afc" />
         <meta name="theme-color" content="#3b7afc" />
+        <meta name="google-site-verification" content="i1M-uAnQcO6InHDubBfi0c-dy7g51N5vcSpBD6US920" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
