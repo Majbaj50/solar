@@ -473,6 +473,7 @@ export default function ApplicationForm() {
               <FormField
                 id="dobMonth"
                 label=""
+                placeholder="MM"
                 type="select"
                 value={formData.dobMonth}
                 onChange={(value) => updateFormData("dobMonth", value)}
@@ -486,6 +487,7 @@ export default function ApplicationForm() {
                 id="dobDay"
                 label=""
                 type="select"
+                placeholder="DD"
                 value={formData.dobDay}
                 onChange={(value) => updateFormData("dobDay", value)}
                 error={dobError}
@@ -498,6 +500,7 @@ export default function ApplicationForm() {
                 id="dobYear"
                 label=""
                 type="select"
+                placeholder="YYYY"
                 value={formData.dobYear}
                 onChange={(value) => updateFormData("dobYear", value)}
                 error={dobError}
